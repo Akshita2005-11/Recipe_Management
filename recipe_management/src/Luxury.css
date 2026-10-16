@@ -1,0 +1,417 @@
+body {
+	background: #f7f8f5;
+}
+
+.site-header {
+	height: 78px;
+	background: rgba(251, 252, 250, .97);
+	border-bottom: 1px solid #e4e9e3;
+	box-shadow: 0 3px 18px rgba(25, 60, 50, .035);
+}
+
+.brand {
+	color: var(--green-dark);
+	font-size: 32px;
+}
+
+.brand-mark {
+	width: 35px;
+	height: 35px;
+	background: #e5ece5;
+	color: var(--green-dark);
+	border-radius: 4px;
+	transform: none;
+}
+
+.brand-period,
+.form-heading h1 span,
+.saved-heading h1 span,
+.not-found h1 span {
+	color: var(--coral);
+}
+
+.main-nav {
+	gap: 34px;
+}
+
+.nav-link {
+	color: #68756e;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link.active {
+	color: var(--green-dark);
+	border-color: var(--coral);
+}
+
+.add-link,
+.button-primary {
+	background: var(--green-dark);
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: .2px;
+}
+
+.add-link:hover,
+.button-primary:hover {
+	background: #285647;
+	transform: translateY(-1px);
+}
+
+.welcome-band {
+	background-color: #193c32;
+	background-image: radial-gradient(rgba(211, 226, 213, .1) .7px, transparent .7px), linear-gradient(115deg, #18392f 0%, #214a3b 54%, #315d49 100%);
+	background-size: 17px 17px, cover;
+}
+
+.welcome-inner {
+	max-width: 1280px;
+	min-height: 525px;
+	padding: 72px 50px;
+	grid-template-columns: 1fr .92fr;
+	gap: 8%;
+}
+
+.welcome-copy {
+	padding-left: 3%;
+}
+
+.eyebrow {
+	color: #66836f;
+	font-size: 9px;
+	letter-spacing: 1.7px;
+}
+
+.welcome-copy .eyebrow {
+	color: #c1d3c3;
+}
+
+.welcome-copy h1,
+.form-heading h1,
+.saved-heading h1,
+.not-found h1 {
+	font-size: 76px;
+	line-height: .96;
+	color: #f5f7f2;
+}
+
+.welcome-copy h1 em {
+	color: #c2d4c2;
+}
+
+.welcome-copy > p {
+	max-width: 365px;
+	color: #d1ddd4;
+	font-size: 14px;
+	line-height: 1.85;
+}
+
+.text-link {
+	color: #f0f4ed;
+	border-color: #789483;
+	font-size: 12px;
+}
+
+.featured-tile {
+	height: 350px;
+	border: 1px solid rgba(245, 247, 242, .7);
+	box-shadow: 0 18px 45px rgba(8, 27, 21, .32);
+	transform: none;
+}
+
+.featured-tile::after {
+	inset: 20% 0 0;
+	background: linear-gradient(transparent 5%, rgba(12, 27, 21, .8));
+}
+
+.featured-overlay {
+	left: 28px;
+	right: 28px;
+	bottom: 27px;
+}
+
+.featured-label {
+	color: #d9e3d8;
+	font-size: 9px;
+	letter-spacing: 1.5px;
+}
+
+.featured-overlay strong {
+	font-size: 34px;
+}
+
+.featured-more {
+	color: #edf2eb;
+	font-size: 11px;
+}
+
+.page-shell {
+	max-width: 1210px;
+}
+
+.recipe-section {
+	padding-top: 72px;
+	padding-bottom: 88px;
+}
+
+.section-heading h2 {
+	font-size: 42px;
+}
+
+.recipe-count {
+	color: #747f78;
+}
+
+.recipe-tools {
+	margin-top: 27px;
+	border-color: #e1e7e1;
+}
+
+.category-tabs {
+	gap: 5px;
+}
+
+.category-tab {
+	border-radius: 3px;
+	color: #68756e;
+	font-weight: 500;
+}
+
+.category-tab:hover {
+	color: var(--green-dark);
+	background: #e9efea;
+	transform: none;
+}
+
+.category-tab.selected {
+	background: var(--green-dark);
+	color: white;
+	box-shadow: none;
+}
+
+.search-box {
+	border-color: #cbd5ce;
+}
+
+.search-box kbd {
+	border-color: #dbe2dc;
+	border-radius: 2px;
+}
+
+.recipe-grid {
+	gap: 26px 22px;
+}
+
+.recipe-card {
+	background: #fff;
+	border: 1px solid #e5eae5;
+	border-radius: 3px;
+	box-shadow: 0 5px 16px rgba(29, 55, 43, .035);
+}
+
+.recipe-card:hover {
+	transform: translateY(-4px);
+	box-shadow: 0 14px 30px rgba(29, 55, 43, .11);
+}
+
+.card-image-link {
+	height: 225px;
+}
+
+.card-category {
+	border-radius: 2px;
+	background: rgba(249, 251, 248, .96);
+	color: var(--green-dark);
+}
+
+.favorite-button {
+	border: 1px solid rgba(255, 255, 255, .9);
+	background: rgba(255, 255, 255, .96);
+	color: var(--green-dark);
+}
+
+.favorite-button:hover {
+	transform: scale(1.06);
+	color: var(--coral);
+}
+
+.card-copy {
+	padding: 18px 18px 16px;
+}
+
+.card-title-link h3 {
+	font-size: 24px;
+}
+
+.card-arrow {
+	color: #78917f;
+}
+
+.card-copy > p {
+	color: #737d76;
+	font-size: 11px;
+}
+
+.card-meta {
+	border-color: #edf0ec;
+	color: #738078;
+}
+
+.empty-state {
+	background: #edf1ec;
+}
+
+.empty-icon {
+	background: #dfe9e0;
+	color: var(--green-dark);
+}
+
+.site-footer {
+	border-color: #e1e7e1;
+	background: #f1f4f0;
+}
+
+.site-footer > span:first-child {
+	color: var(--green-dark);
+}
+
+.site-footer a {
+	color: var(--green-dark);
+}
+
+.saved-icon {
+	background: #e8e0e2;
+	color: var(--coral);
+}
+
+.saved-heading h1 {
+	color: var(--ink);
+}
+
+.form-heading h1,
+.not-found h1 {
+	color: var(--ink);
+}
+
+.recipe-form {
+	background: #fff;
+	border-color: #e2e8e2;
+	border-radius: 3px;
+	box-shadow: 0 12px 35px rgba(29, 55, 43, .045);
+}
+
+.form-section-title > span,
+.section-number {
+	color: var(--coral);
+}
+
+.field {
+	color: #42554a;
+}
+
+.field input,
+.field textarea,
+.field select {
+	border-color: #dce4dd;
+	border-radius: 2px;
+	background: #fcfdfb;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+	border-color: #799481;
+}
+
+.input-with-icon {
+	border-color: #dce4dd;
+	color: #6f8978;
+}
+
+.details-title h1 {
+	font-family: var(--serif);
+}
+
+.details-title h1 span {
+	color: var(--coral);
+}
+
+.details-stats {
+	color: var(--green);
+}
+
+.save-recipe {
+	border-color: #cbd8ce;
+	border-radius: 2px;
+	color: var(--green-dark);
+}
+
+.save-recipe.is-favorite {
+	color: var(--coral);
+	border-color: #dfc9cb;
+	background: #f8f1f2;
+}
+
+.step-number {
+	background: #e8eee8;
+	color: var(--green-dark);
+}
+
+.ingredient-check {
+	border-color: #9aafa0;
+}
+
+.ingredient-check:hover {
+	background: #dce8de;
+}
+
+@media (max-width: 900px) {
+	.welcome-inner {
+		min-height: 450px;
+		padding: 55px 35px;
+		gap: 5%;
+	}
+
+	.welcome-copy h1 {
+		font-size: 62px;
+	}
+
+	.featured-tile {
+		height: 300px;
+	}
+}
+
+@media (max-width: 640px) {
+	.site-header {
+		height: 66px;
+	}
+
+	.welcome-inner {
+		gap: 30px;
+		padding: 47px 23px 48px;
+	}
+
+	.welcome-copy h1 {
+		font-size: 56px;
+	}
+
+	.featured-tile {
+		height: 260px;
+		margin: 0;
+	}
+
+	.featured-overlay strong {
+		font-size: 29px;
+	}
+
+	.section-heading h2 {
+		font-size: 34px;
+	}
+
+	.card-title-link h3 {
+		font-size: 23px;
+	}
+}

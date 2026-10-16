@@ -1,0 +1,26 @@
+:root {
+  font-family: 'Manrope', sans-serif;
+  color: #25342f;
+  background: #f7f8f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #25342f;
+  --muted: #737c76;
+  --paper: #f7f8f5;
+  --green: #476e5b;
+  --green-dark: #193c32;
+  --coral: #87545a;
+  --line: #e2e7e1;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; min-height: 100vh; }
+button, input, textarea, select { font: inherit; }
+button, a { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button:focus-visible, a:focus-visible, input:focus-visible, textarea:focus-visible, select:focus-visible { outline: 3px solid #8aa18f; outline-offset: 3px; }
+::selection { background: #dce7dd; color: var(--ink); }
