@@ -1,0 +1,33 @@
+.container {
+  width: 350px;
+  margin: 80px auto;
+  padding: 25px;
+  background: #fdf5e6;
+  border-radius: 12px;
+  font-family: Arial;
+}
+
+h2 {
+  text-align: center;
+  color: darkgreen;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
